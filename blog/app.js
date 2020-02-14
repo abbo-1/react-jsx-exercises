@@ -1,15 +1,34 @@
 let Header = () => {
-    return <span>Design a header for your blog</span>
+    return (
+        <div>
+            <h1>This is my dope header for my dope blog</h1>
+        </div>
+    )
+    // <span>Design a header for your blog</span>
 }
 let Article = () => {
-    return <span>Write and design your blog article</span>
+    return (
+    <div>
+        <p>This is my dope article</p>
+    </div>
+    )
 }
 let Footer = () => {
-    return <span>Design a footer for your blog</span>
+    return (
+        <div>
+           <p>This is my dope footer</p>
+        </div>
+    )
 }
 
 let Blog = () => {
-    return <span>Make this Component render the header, article, and footer</span>
+    return (
+        <div>   
+             <Header /> 
+             <Article />
+             <Footer />
+        </div>
+    )
 }
 
 
