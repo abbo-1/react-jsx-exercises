@@ -9,7 +9,8 @@ let TextInput = () => {
 let YesNoRadio = () => {
     return (
         <div>
-            <p>This is a test</p>
+            <button>Yes</button>
+            <button>No</button>
         </div>
     )
     // <span>Make this component render two styled radio button side by side labelled "yes" and "no"</span>
